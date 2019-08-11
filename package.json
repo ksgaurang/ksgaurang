@@ -6,7 +6,7 @@
   "scripts": {
     "postinstall": "npm run build",
     "build": "tsc",
-    "start": "pm2 start ./dist/main.js",
+    "start": "node ./dist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
